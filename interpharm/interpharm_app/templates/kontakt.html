@@ -3,14 +3,17 @@
 {% block title %} <title>Kontakt | INTERPHARM Slovakia, a.s.</title> {% endblock %}
 
 {% block content %}
-{% csrf_token %}
+
 <!-- Contact section-->
-<section class="bg-light py-5">
+{% csrf_token %}
+<section class="bg-dark py-5">
     <div class="container px-5 my-5 px-5">
         <div class="text-center mb-5">
             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+            <div style="color: #fff;">
             <h2 class="fw-bolder">Kontaktujte nás</h2>
             <p class="lead mb-0">Radi Vám pomôžeme</p>
+            </div>
         </div>
         <div class="row gx-5 justify-content-center">
             <div class="col-lg-6">
@@ -36,16 +39,16 @@
                         <div class="invalid-feedback" data-sb-feedback="email:email">Zadaný Email je neplatný.</div>
                     </div>
                     <!-- Phone number input-->
-                    <div class="form-floating mb-3">
+                    <!--<div class="form-floating mb-3">
                         <input class="form-control" id="phone" type="tel" placeholder="(421)911 123 321" data-sb-validations="required" />
                         <label for="phone">Telefónne číslo</label>
                         <div class="invalid-feedback" data-sb-feedback="phone:required">Prosím, zadajte vaše telefónne číslo.</div>
-                    </div>
+                    </div> -->
                     <!-- Message input-->
                     <div class="form-floating mb-3">
                         <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                        <label for="message">Vaša správa</label>
-                        <div class="invalid-feedback" data-sb-feedback="message:required">Prosím, vyplňte políčko "Vaša správa"</div>
+                        <label for="message">Napíšte správu</label>
+                        <div class="invalid-feedback" data-sb-feedback="message:required">Prosím, napíšte správu.</div>
                     </div>
                     <!-- Submit success message-->
                     <!---->
