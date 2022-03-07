@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c437cf5c-9f88-415a-894b-8fcc92c3ef95" name="Changes" comment="init" />
+    <list default="true" id="c437cf5c-9f88-415a-894b-8fcc92c3ef95" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpharm/interpharm_app/static/assets/interpharm_budova(2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpharm/interpharm_app/static/assets/interpharm_budova.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpharm/interpharm_app/static/assets/interpharm_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpharm/interpharm_app/templates/kontakt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpharm/interpharm_app/templates/sluzby.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpharm/interpharm_app/templates/zakaznicka_zona.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interpharm/interpharm_app/templates/zastupujuce-znacky.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interpharm/interpharm_app/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/interpharm/interpharm_app/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interpharm/interpharm_app/templates/base_generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/interpharm/interpharm_app/templates/base_generic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interpharm/interpharm_app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/interpharm/interpharm_app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interpharm/interpharm_app/templates/o_nas.html" beforeDir="false" afterPath="$PROJECT_DIR$/interpharm/interpharm_app/templates/o_nas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interpharm/interpharm_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/interpharm/interpharm_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interpharm/interpharm_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/interpharm/interpharm_app/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +32,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -31,11 +60,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/interpharm/interpharm_app/static/assets" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Development\PycharmProjects\interpharm_project\interpharm\interpharm_app\static\assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Development\PycharmProjects\interpharm_project" />
     </key>
@@ -79,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646559313975</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1646561608357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646561608357</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
